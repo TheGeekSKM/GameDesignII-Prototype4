@@ -28,5 +28,5 @@ else if (con_tar ==3)
 
 if (keyboard_check_pressed(vk_escape))
 {
-	room_goto_previous();
+	room_goto(room_first);
 }

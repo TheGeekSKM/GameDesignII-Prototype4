@@ -25,7 +25,7 @@ if (accept_key)
 			switch (pos)
 			{
 				//start game
-				case 0: room_goto_next(); break;
+				case 0: room_goto(rm_Game); break;
 				//settings
 				case 1: game_end();	break;
 				//close game
