@@ -19,6 +19,8 @@ move = key_left + key_right;
 hsp = move * movespeed;
 
 //set facing
+
+
 if (move>0)
 	{
 	image_xscale=1;
