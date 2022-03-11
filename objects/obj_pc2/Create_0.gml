@@ -10,10 +10,12 @@ movespeed = 4;
 
 key_right = 0;
 key_left = 0;
+key_int1 = 0;
 
 key_jump = 0;
 
 move = 0;
+numberOfBooks = 0;
 
 // this should be a unique id for each player character
 my_id =2;

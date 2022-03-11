@@ -9,6 +9,7 @@ pos = 0;
 //main menu
 option[0, 0] = "Start Game";
 option[0, 1] = "Quit Game";
+option[0, 2] = "Player Screen";
 
 //settings menu
 option[1, 0] = "Window Size";

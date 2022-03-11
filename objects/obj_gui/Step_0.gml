@@ -30,3 +30,10 @@ if (keyboard_check_pressed(vk_escape))
 {
 	room_goto(room_first);
 }
+
+
+//Inventory Display
+if (obj_pc1.numberOfCoins >= 5 && obj_pc2.numberOfBooks >= 10 && obj_pc3.numberOfTreasure >= 7)
+{
+	room_goto(rm_Win);
+}

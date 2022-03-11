@@ -29,7 +29,7 @@ if (accept_key)
 				//settings
 				case 1: game_end();	break;
 				//close game
-				case 2:	game_end();	break;
+				case 2:	room_goto(rm_CharacterScreen);	break;
 			}
 			break;
 		
@@ -52,3 +52,6 @@ if (accept_key)
 	if (_startMenuLevel != menu_level) {pos = 0};
 	op_length = array_length(option[menu_level]);
 }
+
+
+

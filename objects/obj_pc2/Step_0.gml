@@ -1,11 +1,14 @@
 // on step
 
+
+
 // only enable input if con_tar matches my id
 if (obj_gui.con_tar==my_id)
 	{
 	key_right = keyboard_check(ord("D"));
 	key_left = -keyboard_check(ord("A"));
 	key_jump = keyboard_check_pressed(ord("J"));
+	key_int1 = keyboard_check_pressed(ord("K"));
 	}
 	else
 	{
@@ -66,3 +69,4 @@ if (place_meeting(x+hsp,y,obj_wall))
 x+=hsp;
 
 //end step
+
